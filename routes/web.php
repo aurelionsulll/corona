@@ -14,4 +14,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'CoronaController@parseImport');
-Route::post('/processImport','CoronaController@processImport');
